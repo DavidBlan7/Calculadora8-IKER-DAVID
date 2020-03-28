@@ -30,8 +30,8 @@ public class Calculadora {
 		int resul = num1 / num2;
 		return resul;
 	}
-	public double elevaXaN() {
-		double resul= Math.pow(num1, num2);
+	public int elevaXaN() {
+		int resul= (int)Math.pow(num1, num2);
 		return resul;
 	}
 }
