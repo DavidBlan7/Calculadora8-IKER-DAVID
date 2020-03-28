@@ -30,4 +30,9 @@ public class Calculadora {
 		int resul = num1 / num2;
 		return resul;
 	}
+	
+	public int raizNdeX() {
+		int resul = (int) (Math.pow(num1, (1/num2)));
+		return resul;
+	}
 }
